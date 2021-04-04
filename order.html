@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realizar compra - HogarDeco</title>
+</head>
+<body>
+    <object data="common/navbar.html" type="text/x-scriptlet"></object>
+
+    <div class="main order">
+        <h2>DETALLE DE LA COMPRA</h2>
+        <div class="accordion-order">
+            <div class="order-detail">
+                <article>
+                    <img src="/img/armchairs13-2.jpg" alt="" style="width: 50px; height: 50px;">
+                    <label>Sillón</label>
+                    <input type="number" style="width: 40px; height: 20px;">
+                    <label>$65431</label>
+                    <i class="fas fa-trash-alt"></i>
+                </article>
+                <article>
+                    <img src="/img/armchairs3.PNG" alt="" style="width: 50px; height: 50px;">
+                    <label>Sillón</label>
+                    <input type="number" style="width: 40px; height: 20px;">
+                    <label>$75431</label>
+                    <i class="fas fa-trash-alt"></i>
+                </article>
+                <article>
+                    <img src="/img/armchairs11.PNG" alt="" style="width: 50px; height: 50px;">
+                    <label>Sillón</label>
+                    <input type="number" style="width: 40px; height: 20px;">
+                    <label>$60543</label>
+                    <i class="fas fa-trash-alt"></i>
+                </article>
+                <label>Total del pedido: $201505</label>
+            </div>
+            <div class="client-info">
+                <div class="client">
+                    <div class="input-info">
+                        <label>Nombre</label>
+                        <input type="text">
+                    </div>
+                    <div class="input-info">
+                        <label>Apellido</label>
+                        <input type="text">
+                    </div>
+                    <div class="input-info">
+                        <label>Email</label>
+                        <input type="text">
+                    </div>
+                    <div class="input-info">
+                        <label>Teléfono</label>
+                        <input type="number">
+                    </div>
+                </div>
+                <div class="location">
+                    <div class="input-info">
+                        <label>Código Postal</label>
+                        <input type="number">
+                    </div>
+                    <div class="input-info">
+                        <label>Provincia</label>
+                        <input type="select">
+                    </div>
+                    <div class="input-info">
+                        <label>Localidad</label>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="street">
+                    <div class="input-info">
+                        <label>Calle</label>
+                        <input type="text">
+                    </div>
+                    <div class="input-info">
+                        <label>Número</label>
+                        <input type="number">
+                    </div>
+                    <div class="input-info">
+                        <label>Piso/Departamento</label>
+                        <input type="text">
+                    </div>
+                </div>
+            </div>
+            <div class="shipping">
+                <div class="options">
+                    <input type="radio" value="1"><label for="1">Retiro por domicilio del vendedor</label><br>
+                    <input type="radio" value="2"><label for="2">Envío a domicilio</label><br>
+                    <input type="radio" value="3"><label for="3">Retiro por sucursal (correo y otros puntos)</label><br>
+                </div>
+                <label>Elegir una sucursal para realizar el envío</label>
+                <input type="select">
+            </div>
+            <div class="payment">
+                <div class="options">
+                    <input type="radio" value="1"><label for="1">Efectivo en puntos de pago (Rapipago y Pago facil)</label><br>
+                    <input type="radio" value="2"><label for="2">Tarjeta de débito</label><br>
+                    <input type="radio" value="3"><label for="3">Tarjeta de crédito</label><br>
+                </div>
+                <div class="card-info">
+                    <div class="input-info">
+                        <label>Número de tarjeta</label>
+                        <input type="number">
+                    </div>
+                    <div class="input-info">
+                        <label>Nombre y apellido</label>
+                        <input type="text">
+                    </div>
+                    <div class="input-info">
+                        <label>Fecha de expiración</label>
+                        <input type="text">
+                    </div>
+                    <div class="input-info">
+                        <label>Código de seguridad</label>
+                        <input type="number">
+                    </div>
+                    <div class="input-info">
+                        <label>Número de documento</label>
+                        <input type="number">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a href="#"><button class="buy">
+            Realizar compra
+        </button></a>
+    </div>
+</body>
+</html>
